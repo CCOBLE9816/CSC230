@@ -1,0 +1,53 @@
+/* Structural Styles */
+html {
+    background-color: rgb(152, 20, 189);
+} 
+body {
+    background-color: rgb(53, 8, 166);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} 
+
+
+/* Heading Styles */
+h1{font-weight:normal;}
+h2{font-weight:normal;} 
+h3{font-weight: bold;}
+
+
+/* Navigation Styles */
+nav > ul{
+ list-style-type:none;
+ line-height: 2em;
+ font-size: 0.9em;
+}
+nav ul a:link{
+ text-decoration: underline;
+ color: rgb(43,59,125);
+}
+nav ul a:active{
+ color: rgb(212,35,35);
+} 
+
+/* Article Styles */
+article#about_me h1 {
+ font-size: 2.2em;
+ letter-spacing: 0.2em;
+}
+article#about_me p {
+ font-size: 1.1em;
+}
+article#about_me> p:first-of-type::first-line {
+ font-size: 1.2em;
+ font-variant: small-caps;
+}
+
+/* Aside Styles */
+aside#my_animals h1 {
+ font-size: 1.2em;
+}
+aside#my_animals h2 {
+ font-size: 0.9em;
+}
+aside#my_animals p {
+ font-size: 0.8em;
+} 
